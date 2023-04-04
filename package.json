@@ -1,0 +1,26 @@
+{
+  "name": "single-html",
+  "version": "0.0.4",
+  "description": "Port of MihanEntalpo's allure-single-html-file from python to node to create a single html files using all the allure report data",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --config ./jest.config.js",
+    "debug": "node --inspect ./node_modules/.bin/jest --config ./jest.config.js"
+  },
+  "author": "Valentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valiantsin2021/single-html"
+  },
+  "homepage": "https://github.com/Valiantsin2021/single-html",
+  "dependencies": {
+    "glob": "^8.0.1",
+    "jssoup": "^0.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.1"
+  }
+}
