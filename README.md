@@ -19,7 +19,7 @@ Ported over from the Python repo [allure-single-html-file](https://github.com/Mi
 ## Installation
 
 ```bash
-npm install allure-single-html-file-js
+npm i single-html
 ```
 
 ## Run as console script
